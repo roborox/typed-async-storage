@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "build/lib/index.js",
   "types": "build/lib/index.d.ts",
+  "private": false,
   "files": [
     "build",
     "typings.d.ts"
