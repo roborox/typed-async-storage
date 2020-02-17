@@ -19,6 +19,9 @@
     "ci": "sh ./scripts/ci.sh",
     "release": "sh ./scripts/release.sh"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@babel/core": "7.8.4",
     "@roborox/eslint-config-default": "2.1.1",
