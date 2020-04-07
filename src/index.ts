@@ -26,4 +26,13 @@ export class TypedAsyncStorage<T extends Record<string, any>> implements IStorag
 	public setItem<K extends keyof T>(key: K, value: T[K]): Promise<void> {
 		return AsyncStorage.setItem(key as string, JSON.stringify(value))
 	}
+
+	public async modifyItem<K extends keyof T>(
+		key: K, initial: T[K], updater: (value: T[K]) => T[K],
+	): Promise<T[K]> {
+		const nextValue = updater((await this.getItem(key)) || initial)
+		await this.setItem(key, nextValue)
+
+		return nextValue
+	}
 }
