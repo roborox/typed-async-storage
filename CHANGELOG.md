@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/roborox/typed-async-storage/compare/v1.0.2...v1.1.0) (2020-04-07)
+
+
+### Features
+
+* add modifyItem function ([d52c9ea](https://github.com/roborox/typed-async-storage/commit/d52c9ea7a540f28668ee22d00fefeb9a236f4f21))
+* fix dependencies, add web mock, add withDefault feature ([aa5410c](https://github.com/roborox/typed-async-storage/commit/aa5410c9a019127144858d30f03b431981abf285))
+
 ## [1.0.2](https://github.com/roborox/typed-async-storage/compare/v1.0.1...v1.0.2) (2020-02-17)
 
 
