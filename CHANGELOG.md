@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/roborox/typed-async-storage/compare/v1.1.0...v2.0.0) (2020-04-10)
+
+
+### Features
+
+* install @react-native-community/async-storage ([690174e](https://github.com/roborox/typed-async-storage/commit/690174e2bcc33fbf66805b85b26e0412323470f8))
+
+
+### BREAKING CHANGES
+
+* no back compatibility with NativeModules.AsyncStorage
+
 # [1.1.0](https://github.com/roborox/typed-async-storage/compare/v1.0.2...v1.1.0) (2020-04-07)
 
 
