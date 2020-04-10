@@ -1,4 +1,4 @@
-import { AsyncStorage } from "react-native"
+import AsyncStorage from "@react-native-community/async-storage"
 import { IStorage } from "./domain"
 
 export class TypedAsyncStorage<T extends Record<string, any>> implements IStorage<T> {

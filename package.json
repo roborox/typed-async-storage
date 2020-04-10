@@ -1,6 +1,7 @@
 {
   "name": "@roborox/typed-async-storage",
   "version": "1.1.0",
+  "description": "Typed async storage for react-native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "private": false,
@@ -8,6 +9,7 @@
     "build",
     "package.json"
   ],
+  "license": "ISC",
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint"
@@ -25,7 +27,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roborox/typed-async-storage"
+  },
   "devDependencies": {
+    "@react-native-community/async-storage": "1.9.0",
     "@roborox/eslint-config-default": "2.1.1",
     "@semantic-release/changelog": "5.0.0",
     "@semantic-release/commit-analyzer": "8.0.1",
@@ -33,17 +40,15 @@
     "@semantic-release/npm": "7.0.2",
     "@semantic-release/release-notes-generator": "9.0.0",
     "@types/jest": "^25.1.2",
-    "@types/react-native": "^0.61.15",
     "eslint": "6.8.0",
     "husky": "4.2.2",
-    "jest": "^25.1.0",
-    "react-native": "^0.61.5",
+    "jest": "25.1.0",
     "rimraf": "3.0.2",
     "semantic-release": "17.0.2",
-    "ts-jest": "^25.2.0",
+    "ts-jest": "25.2.0",
     "typescript": "3.7.5"
   },
   "peerDependencies": {
-    "react-native": ">= 0.61.5"
+    "@react-native-community/async-storage": ">= 1.9.0"
   }
 }
