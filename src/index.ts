@@ -1,7 +1,6 @@
-import { AsyncStorage } from "react-native"
-import { IStorage } from "./domain"
+import AsyncStorage from "@react-native-community/async-storage"
 
-export class TypedAsyncStorage<T extends Record<string, any>> implements IStorage<T> {
+export class TypedAsyncStorage<T extends Record<string, any>> {
 	public async getItem<K extends keyof T>(key: K): Promise<T[K] | null> {
 		const result = await AsyncStorage.getItem(key as string)
 		if (result !== null) {
