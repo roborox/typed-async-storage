@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/roborox/typed-async-storage/compare/v2.0.0...v3.0.0) (2020-05-26)
+
+
+### Features
+
+* abstract StringAsyncStorage ([7e6a7dc](https://github.com/roborox/typed-async-storage/commit/7e6a7dc13a778a376c331501bb25e3f8494920d6))
+
+
+### BREAKING CHANGES
+
+* simplified IStorage interface, getWithDefault doesn't set value. only returns default if provided
+
 # [2.0.0](https://github.com/roborox/typed-async-storage/compare/v1.1.0...v2.0.0) (2020-04-10)
 
 
