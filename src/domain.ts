@@ -1,7 +1,7 @@
 export interface IStorage<T extends Record<string, any>> {
-	getItem: <K extends keyof T>(key: K) => Promise<T[K] | null>
-	getItemWithDefault: <K extends keyof T>(key: K, initial: T[K]) => Promise<T[K]>
-	removeItem: (key: keyof T) => Promise<void>
-	setItem: <K extends keyof T>(key: K, value: T[K]) => Promise<void>,
-	modifyItem<K extends keyof T>(key: K, initial: T[K], updater: (value: T[K]) => T[K]): Promise<T[K]>
+	get: <K extends keyof T>(key: K) => Promise<T[K] | null>
+	getWithDefault: <K extends keyof T>(key: K, initial: T[K]) => Promise<T[K]>
+	remove: (key: keyof T) => Promise<void>
+	set: <K extends keyof T>(key: K, value: T[K]) => Promise<void>,
+	modify<K extends keyof T>(key: K, initial: T[K], updater: (value: T[K]) => T[K]): Promise<T[K]>
 }
