@@ -1,3 +1,11 @@
+## [3.0.2](https://github.com/roborox/typed-async-storage/compare/v3.0.1...v3.0.2) (2020-05-26)
+
+
+### Bug Fixes
+
+* StringAsyncStorage moved to index.ts ([5166c11](https://github.com/roborox/typed-async-storage/commit/5166c114186e05bb1f2507a4bf7f42126d3ee691))
+* StringAsyncStorage moved to index.ts ([87cd78e](https://github.com/roborox/typed-async-storage/commit/87cd78eabd418a9a8f0087c374721bc5fab99884))
+
 ## [3.0.1](https://github.com/roborox/typed-async-storage/compare/v3.0.0...v3.0.1) (2020-05-26)
 
 

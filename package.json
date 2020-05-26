@@ -1,6 +1,6 @@
 {
   "name": "@roborox/typed-async-storage",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Typed async storage for react-native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
