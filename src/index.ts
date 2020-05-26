@@ -1,5 +1,13 @@
 import { IStorage } from "./domain"
 
+interface StringAsyncStorage {
+	getItem(key: string): Promise<string | null>
+
+	setItem(key: string, value: string): Promise<void>
+
+	removeItem(key: string): Promise<void>
+}
+
 export class TypedAsyncStorage<T extends Record<string, any>> implements IStorage<T> {
 
 	constructor(private readonly storage: StringAsyncStorage) {
