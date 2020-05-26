@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/roborox/typed-async-storage/compare/v3.0.0...v3.0.1) (2020-05-26)
+
+
+### Bug Fixes
+
+* fix IStorage interface ([3632b35](https://github.com/roborox/typed-async-storage/commit/3632b35c24a0dcfc8e5ce82165b0bfb7123d2067))
+
 # [3.0.0](https://github.com/roborox/typed-async-storage/compare/v2.0.0...v3.0.0) (2020-05-26)
 
 
