@@ -10,24 +10,22 @@ interface Test {
 }
 
 describe("TypedAsyncStorage", () => {
-	it("should get null if value not set", async () => {
+	it("should get undefined if value not set", async () => {
 		const storage = new RecordStorage()
 		const typed = new TypedAsyncStorage<Test>(storage)
-		expect(await typed.get("value1")).toBe(null)
+		expect(await typed.get("value1")).toBe(undefined)
 	})
 
 	it("should get default value if value not set", async () => {
 		const storage = new RecordStorage()
 		const typed = new TypedAsyncStorage<Test>(storage)
-		expect(await typed.getWithDefault("value1", "some")).toBe("some")
-		expect(await typed.get("value1")).toBe(null)
+		expect(await typed.get("value1")).toBe(undefined)
 	})
 
 	it("should set value", async () => {
 		const storage = new RecordStorage()
 		const typed = new TypedAsyncStorage<Test>(storage)
 		await typed.set("value1", "some new value")
-		expect(await typed.getWithDefault("value1", "some")).toBe("some new value")
 		expect(await typed.get("value1")).toBe("some new value")
 	})
 
@@ -38,7 +36,7 @@ describe("TypedAsyncStorage", () => {
 		expect(await typed.get("value1")).toBe("some new value")
 
 		await typed.remove("value1")
-		expect(await typed.get("value1")).toBe(null)
+		expect(await typed.get("value1")).toBe(undefined)
 	})
 
 	it("should modify value", async () => {
