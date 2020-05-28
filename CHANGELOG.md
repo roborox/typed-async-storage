@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/roborox/typed-async-storage/compare/v3.1.0...v3.1.1) (2020-05-28)
+
+
+### Bug Fixes
+
+* move StringAsyncStorage to separate file ([aaf4bee](https://github.com/roborox/typed-async-storage/commit/aaf4bee0bb251b012789fbd8f7b6992e5e14b96d))
+
 # [3.1.0](https://github.com/roborox/typed-async-storage/compare/v3.0.2...v3.1.0) (2020-05-27)
 
 
