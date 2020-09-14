@@ -1,4 +1,4 @@
-import { StringAsyncStorage } from "./string-storage"
+import type { StringAsyncStorage } from "./string-storage"
 
 export class RecordStorage implements StringAsyncStorage {
 	private readonly storage: Record<string, string> = {}

@@ -4,8 +4,8 @@ import { TypedAsyncStorage } from "./index"
 interface Test {
 	value1: string
 	value2: {
-		sub1: number,
-		sub2: string,
+		sub1: number
+		sub2: string
 	}
 }
 
