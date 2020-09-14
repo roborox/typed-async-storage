@@ -20,7 +20,7 @@
 		"package.json"
 	],
 	"scripts": {
-		"build": "npm run lint && npm run cleanup && tsc",
+		"build": "run-s \"lint\" \"cleanup\" && tsc",
 		"ci": "sh ./scripts/ci.sh",
 		"cleanup": "rimraf ./build",
 		"lint": "eslint --ext .js,.ts,.ts,.tsx ./",
@@ -46,6 +46,7 @@
 		"husky": "4.3.0",
 		"jest": "26.4.2",
 		"lint-staged": "10.3.0",
+		"npm-run-all": "4.1.5",
 		"prettier": "2.1.1",
 		"rimraf": "3.0.2",
 		"semantic-release": "17.1.1",
