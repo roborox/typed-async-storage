@@ -5,7 +5,7 @@
 	"description": "Typed async storage for react-native",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/roborox/typed-async-storage"
+		"url": "git@github.com:roborox/typed-async-storage.git"
 	},
 	"license": "ISC",
 	"author": {
