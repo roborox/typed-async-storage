@@ -1,6 +1,6 @@
 {
 	"name": "@roborox/typed-async-storage",
-	"version": "3.1.1",
+	"version": "3.1.2",
 	"private": false,
 	"description": "Typed async storage for react-native",
 	"repository": {

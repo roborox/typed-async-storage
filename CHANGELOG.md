@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/roborox/typed-async-storage/compare/v3.1.1...v3.1.2) (2020-09-16)
+
+
+### Bug Fixes
+
+* update deps ([937923a](https://github.com/roborox/typed-async-storage/commit/937923ac8eaa8a799e80e1b92799c9164571cdd4))
+
 ## [3.1.1](https://github.com/roborox/typed-async-storage/compare/v3.1.0...v3.1.1) (2020-05-28)
 
 
